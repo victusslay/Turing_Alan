@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aliceblue;
+    width: 100%;
+    height: 100VH;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    padding: 0 100px;
+    background: #0F2027;
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+}
+
+header nav {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #405385;
+    border-radius: 0 0 15px 15px;
+    position: fixed;
+    left: 0;
+    right: 0;
+}
+
+header nav ol {
+    height: 100%;
+    display: flex;
+}
+
+header nav ol li:hover {
+    background-color: #9faee7;
+}
+
+header nav ol li:hover a {
+    color: #405385;
+}
+
+header nav ol li {
+    display: flex;
+    height: 100%;
+    list-style: none;
+    padding: 0 15px;
+}
+
+header nav ol li a {
+    display: flex;
+    align-items: center;
+    height: 100%;
+    text-decoration: none;
+    font-size: 16px;
+    color: #8797cf;
+    font-weight: bold;
+}
+
+header div.encabezado {
+    width: 100%;
+    flex-basis: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header div.encabezado h1 {
+    font-size: 62px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #9faee7;
+}
+
+header div.encabezado div.imagen {
+    width: 40%;
+    height: 40%;
+}
+
+header div.encabezado div.imagen img {
+    border-radius: 30px;
+    box-shadow: 3px 3px 4px white, -3px -3px grey;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 30px 250px;
+    gap: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: #0F2027;
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+}
+
+.main h3 {
+    font-size: 24px;
+}
+
+.main p {
+    font-size: 14px;
+}
+
+#biografia, #maquina_turing, #test_turing, #teoria_morfogenesis  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    width: 100%;
+    height: 100%;
+    background-color: #9faee7;
+    -webkit-box-shadow: 9px 9px 9px 3px rgba(64,83,133,1);
+    -moz-box-shadow: 9px 9px 9px 3px rgba(64,83,133,1);
+    box-shadow: 9px 9px 9px 3px rgba(64,83,133,1);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    color: #9faee7;
+    background: #0F2027;
+    background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);
+    background: linear-gradient(to right, #2C5364, #203A43, #0F2027);
+}
